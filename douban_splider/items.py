@@ -19,7 +19,7 @@ class DoubanSpliderItem(scrapy.Item):
     introduce = scrapy.Field()
     #电影的星级
     start = scrapy.Field()
-    电影的评级
+    # 电影的评级
     evaluate = scrapy.Field()
     #电影的描述
     description = scrapy.Field()
